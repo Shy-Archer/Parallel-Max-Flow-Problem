@@ -1,0 +1,34 @@
+﻿  Compiling CUDA source file Cuda.cu...
+  
+  C:\Users\lukas\source\repos\prozcuda\prozcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\lukas\source\repos\prozcuda\prozcuda\x64\Debug\Cuda.cu.obj "C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu" 
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(112): warning #177-D: variable "minGraphs" was declared but never referenced
+        const int minGraphs = 500;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(113): warning #177-D: variable "maxGraphs" was declared but never referenced
+        const int maxGraphs = 5000;
+                  ^
+  
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(116): warning #177-D: variable "minV" was declared but never referenced
+        int minV = 10;
+            ^
+  
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(117): warning #177-D: variable "maxV" was declared but never referenced
+        int maxV = 100;
+            ^
+  
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(156): warning #177-D: variable "blocks" was declared but never referenced
+            int blocks = (numGraphs + number_of_threads - 1) / number_of_threads;
+                ^
+  
+  Cuda.cu
+  tmpxft_00001458_00000000-7_Cuda.cudafe1.cpp
+C:\Users\lukas\source\repos\prozcuda\prozcuda\GraphGen.h(3): warning C4244: "argument": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(131): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(148): warning C4244: "argument": konwersja z "double" do "size_t", możliwa utrata danych
+C:\Users\lukas\source\repos\prozcuda\prozcuda\Cuda.cu(150): warning C4244: "argument": konwersja z "double" do "size_t", możliwa utrata danych
+     Trwa tworzenie biblioteki C:\Users\lukas\source\repos\prozcuda\x64\Debug\prozcuda.lib i obiektu C:\Users\lukas\source\repos\prozcuda\x64\Debug\prozcuda.exp
+LINK : warning LNK4098: domyślna biblioteka "LIBCMT" powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+  prozcuda.vcxproj -> C:\Users\lukas\source\repos\prozcuda\x64\Debug\prozcuda.exe

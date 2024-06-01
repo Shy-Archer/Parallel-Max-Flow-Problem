@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (proz.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+cl : wiersz polecenia  warning D9025: przesłanianie "/openmp" przez " /openmp:llvm"
+  Sequential+OpenMp.cpp
+C:\Users\lukas\source\repos\proz\proz\GraphGen.h(7,25): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+  (kompilowanie pliku źródłowego „Sequential+OpenMp.cpp”)
+  
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(22,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(49,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(67,40): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(68,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(93,18): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(113,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\lukas\source\repos\proz\proz\Sequential+OpenMp.cpp(152,19): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  proz.vcxproj -> C:\Users\lukas\source\repos\proz\x64\Debug\Push-Relabel-Sequential+OpenMp.exe
